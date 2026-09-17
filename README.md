@@ -36,7 +36,7 @@
 - 零第三方运行期依赖：内置轻量 JSON 解析与 HTTP 客户端，不引入 OkHttp / Jackson / Netty
 - 一行调用：`OpenAiUtil.chat(model, prompt)` 完成对话
 - 统一能力：SSE 流式 · Function Calling · Embedding · 环境变量自动配置
-- 15 个模块 · 最新版本 **0.1.0**
+- 15 个模块 · 最新版本 **1.0.1**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/sureai)
 [![Release](https://img.shields.io/github/v/release/TASure/sureai)](https://github.com/TASure/sureai/releases)
@@ -50,7 +50,7 @@
 - 17 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · spring-boot-starter 等
 - 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1）
 - 测试 625+ 全绿 · 覆盖率全模块 ≥ 85% · CI(JVM 21/25) 全绿 · SpotBugs/Checkstyle 零告警
-- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **0.2.0**
+- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.0.0**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/suretool)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.tasure/sure-all.svg)](https://central.sonatype.com/artifact/io.github.tasure/sure-all)
@@ -62,9 +62,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-17 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（11 平台 · 15 模块） | Java | 0 | 2026-09-17 |
 | [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-09-17 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-17 |
 
 ---
 
@@ -89,18 +89,18 @@
 | 总 Star | 0 |
 | 总 Fork | 0 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-09-18 03:24 (UTC+8) |
+| 数据同步于 | 2026-09-18 03:26 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-09-17 · **TASure**：chore: auto-sync profile README (2026-09-18 03:24 UTC+8)
 - 2026-09-17 · **sureai**：chore: bump version to 1.1.0-SNAPSHOT
 - 2026-09-17 · **sureai**：release: 1.0.1
 - 2026-09-17 · **suretool**：docs: README 同步 1.0.0（版本号/badge 坐标/模块表补 sure-benchmark）
 - 2026-09-17 · **suretool**：chore(release): 版本 1.0.0（首个稳定版本发布）
 - 2026-09-17 · **TASure**：chore: auto-sync profile README (2026-09-17 11:34 UTC+8)
-- 2026-09-09 · **TASure**：Revise README with personal and project details
 
 ---
 

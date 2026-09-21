@@ -62,9 +62,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-19 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-09-21 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-20 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（11 平台 · 15 模块） | Java | 0 | 2026-09-17 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-09-17 |
 
 ---
 
@@ -89,14 +89,14 @@
 | 总 Star | 0 |
 | 总 Fork | 0 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-09-21 03:24 (UTC+8) |
+| 数据同步于 | 2026-09-22 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-09-20 · **TASure**：chore: auto-sync profile README (2026-09-21 03:24 UTC+8)
 - 2026-09-19 · **TASure**：chore: auto-sync profile README (2026-09-20 03:24 UTC+8)
-- 2026-09-18 · **TASure**：chore: auto-sync profile README (2026-09-19 03:23 UTC+8)
 - 2026-09-17 · **sureai**：chore: bump version to 1.1.0-SNAPSHOT
 - 2026-09-17 · **sureai**：release: 1.0.1
 - 2026-09-17 · **suretool**：docs: README 同步 1.0.0（版本号/badge 坐标/模块表补 sure-benchmark）

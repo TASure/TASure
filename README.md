@@ -36,7 +36,7 @@
 - 零第三方运行期依赖：内置轻量 JSON 解析与 HTTP 客户端，不引入 OkHttp / Jackson / Netty
 - 一行调用：`OpenAiUtil.chat(model, prompt)` 完成对话
 - 统一能力：SSE 流式 · Function Calling · Embedding · 环境变量自动配置
-- 15 个模块 · 最新版本 **1.1.0**
+- 15 个模块 · 最新版本 **1.3.0**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/sureai)
 [![Release](https://img.shields.io/github/v/release/TASure/sureai)](https://github.com/TASure/sureai/releases)
@@ -62,9 +62,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（11 平台 · 15 模块） | Java | 0 | 2026-09-24 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-09-24 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-23 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（11 平台 · 15 模块） | Java | 0 | 2026-09-25 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-09-25 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-24 |
 
 ---
 
@@ -89,18 +89,18 @@
 | 总 Star | 0 |
 | 总 Fork | 0 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-09-25 03:23 (UTC+8) |
+| 数据同步于 | 2026-09-26 03:26 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-09-24 · **sureai**：docs: 记录 v1.1.0 发布 DNS 规避方案
-- 2026-09-24 · **sureai**：chore: bump version to 1.2.0-SNAPSHOT
-- 2026-09-24 · **suretool**：feat(extra): 新增 sure-extra 扩展模块（P5 v1.1.0）
-- 2026-09-24 · **suretool**：feat(thread): ThreadUtil 虚拟线程升级（P5 v1.1.0）
+- 2026-09-25 · **sureai**：docs: CHANGELOG 新增 [1.4.0] - Unreleased 段（Added/Changed/Fixed/不适用项分类）
+- 2026-09-25 · **sureai**：fix(core): 修复AbstractAiClient javadoc跨包{@link}引用导致的javadoc error
+- 2026-09-25 · **suretool**：feat(http,json,docs): 会话级 CookieStore + JSONPath length() 聚合 + benchmark 教程
+- 2026-09-25 · **suretool**：docs(ci, benchmark, extra): 沉淀 benchmark 门禁抗噪经验入 ci-workflow；报告更新至 Fork=3 配置并入文档站导航；ImgUtil 补 read/scale/crop + QrCodeUtil 文件输出 + P5ImgUtilTest 6 例（extra 26 测试全绿，sure-core 指令覆盖 92.90%）
+- 2026-09-24 · **TASure**：chore: auto-sync profile README (2026-09-25 03:23 UTC+8)
 - 2026-09-23 · **TASure**：chore: auto-sync profile README (2026-09-24 03:24 UTC+8)
-- 2026-09-22 · **TASure**：chore: auto-sync profile README (2026-09-23 03:23 UTC+8)
 
 ---
 

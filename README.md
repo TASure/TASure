@@ -62,9 +62,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-08 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（11 平台 · 15 模块） | Java | 1 | 2026-10-08 |
 | [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-10-05 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-09-25 |
 
 ---
 
@@ -89,18 +89,18 @@
 | 总 Star | 1 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-08 09:14 (UTC+8) |
+| 数据同步于 | 2026-10-08 09:17 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:14 UTC+8)
 - 2026-10-08 · **sureai**：chore: release 2.0.0（开发者体验里程碑）
 - 2026-09-30 · **sureai**：docs(v2.0.0): README 5 分钟入门 + v2.0.0 四件套特性 + CHANGELOG [2.0.0]
 - 2026-09-30 · **suretool**：v1.6.0 发布收尾：bump 1.6.1-SNAPSHOT
 - 2026-09-30 · **suretool**：v1.6.0：JDK25 基线 + Spring Boot 4.1.1
 - 2026-09-25 · **TASure**：chore: auto-sync profile README (2026-09-26 03:26 UTC+8)
-- 2026-09-24 · **TASure**：chore: auto-sync profile README (2026-09-25 03:23 UTC+8)
 
 ---
 

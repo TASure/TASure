@@ -5,9 +5,9 @@
 **Java 开源开发者 · 基础工具库 & 大模型 SDK 作者**
 
 专注打造「**小而全 · 零依赖 · 开箱即用**」的 Java 基础设施：
-所有开源项目均采用 **JDK 21 + Maven 多模块 + Apache-2.0**，核心域零第三方运行期依赖，已发布至 Maven Central。
+所有开源项目均采用 **JDK 21/25 + Maven 多模块 + Apache-2.0**，核心域零第三方运行期依赖，已发布至 Maven Central。
 
-[![JDK](https://img.shields.io/badge/JDK-21+-orange.svg)](https://openjdk.org/projects/jdk/21/)
+[![JDK](https://img.shields.io/badge/JDK-21%2F25-orange.svg)](https://openjdk.org/projects/jdk/25/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Maven Central](https://img.shields.io/badge/Maven%20Central-io.github.tasure-blueviolet.svg)](https://central.sonatype.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-TASure-181717.svg?logo=github&logoColor=white)](https://github.com/TASure)
@@ -19,7 +19,7 @@
 ## 🧑‍💻 关于我 About Me
 
 - 🔭 正在持续迭代：**sureai**（大模型统一接入 SDK）与 **suretool**（Java 工具类库）
-- 🌱 技术栈：Java 21 · Maven 多模块 · JUnit 5 · GitHub Actions · Maven Central 发布
+- 🌱 技术栈：Java 21/25 · Maven 多模块 · JUnit 5 · GitHub Actions · Maven Central 发布
 - 🎯 设计理念：静态工具类开箱即用、模块级隔离按需引入、核心域**零第三方运行期依赖**
 - ✍️ 代码风格：Tab 缩进 · 中文 JavaDoc · Apache-2.0 · Conventional Commits
 - 📦 发布坐标：`io.github.tasure`（`sure-all` / `sure-ai-all` 一键引入全部能力）
@@ -32,11 +32,12 @@
 
 > 每个主流 AI 平台一个独立模块与静态入口工具类，模块间互相隔离，按需引入。
 
-- 平台全覆盖：OpenAI · Azure · Anthropic · Gemini · DeepSeek · 通义千问 · 智谱 · Kimi(Moonshot) · 豆包 · 百度千帆 · Ollama
+- 平台全覆盖：**23 个平台**（OpenAI · Azure · Anthropic · Gemini · DeepSeek · 通义千问 · 智谱 · Kimi · 豆包 · 百度千帆 · Ollama · Grok · Mistral · Cohere · llama.cpp · AWS Bedrock · MiniMax · 阶跃星辰 · 百川 · 01.AI · 硅基流动 · 腾讯混元 · 讯飞星火）
 - 零第三方运行期依赖：内置轻量 JSON 解析与 HTTP 客户端，不引入 OkHttp / Jackson / Netty
 - 一行调用：`OpenAiUtil.chat(model, prompt)` 完成对话
-- 统一能力：SSE 流式 · Function Calling · Embedding · 环境变量自动配置
-- 15 个模块 · 最新版本 **1.9.0**
+- 统一能力：SSE 流式 · Function Calling · Embedding · 图像/视频生成 · TTS/STT · Rerank · 结构化输出 · 多模态 · PDF 理解 · Realtime · Batches · Grounding · 微调
+- 生态模块：MCP 客户端与服务端 · Agent(ReAct) · RAG · CLI 命令行 · Maven 脚手架 · GraalVM native-image · OTel 可观测 · Spring Boot Starter · Quarkus 扩展
+- 41 个模块 · 最新版本 **1.9.0**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/sureai)
 [![Release](https://img.shields.io/github/v/release/TASure/sureai)](https://github.com/TASure/sureai/releases)
@@ -47,10 +48,10 @@
 
 > 参考 [Hutool](https://doc.hutool.cn/) 设计理念，通过静态方法封装常用 JDK API，减少重复造轮子、降低开发成本。
 
-- 17 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · spring-boot-starter 等
-- 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1）
-- 测试 625+ 全绿 · 覆盖率全模块 ≥ 85% · CI(JVM 21/25) 全绿 · SpotBugs/Checkstyle 零告警
-- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.6.0**
+- 28 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · pdf · db · aop · log · event · math · process · script · socket · template · compress · extra · spring-boot-starter 等
+- 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1；DB 域内置零依赖最小连接池）
+- 测试全绿 · 覆盖率门禁 · CI 全绿 · CodeQL + Dependabot 自动依赖升级 · SpotBugs/Checkstyle 零告警
+- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.6.0**（JDK 25 基线 · Spring Boot 4.1.1）
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/suretool)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.tasure/sure-all.svg)](https://central.sonatype.com/artifact/io.github.tasure/sure-all)
@@ -63,8 +64,8 @@
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
 | [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-08 |
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（11 平台 · 15 模块） | Java | 1 | 2026-10-08 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（17 模块 · 已发布 Maven Central） | Java | 0 | 2026-10-05 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-08 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 0 | 2026-10-05 |
 
 ---
 
@@ -72,12 +73,12 @@
 
 | 领域 | 技术 |
 |------|------|
-| 语言 | Java 21（record · pattern matching · switch 模式） |
+| 语言 | Java 21 / 25（record · pattern matching · switch 模式 · 虚拟线程） |
 | 构建 | Maven 多模块 · Maven Wrapper · BOM 统一版本管理 |
 | 测试 | JUnit 5 · Jacoco 覆盖率门禁 · SpotBugs / Checkstyle 零告警 |
-| 质量 | GitHub Actions CI（JVM 21/25）· CodeQL 安全扫描 · 发布级 `clean verify` 门禁 |
+| 质量 | GitHub Actions CI · CodeQL 安全扫描 · Dependabot 自动依赖升级 · 发布级 `clean verify` 门禁 |
 | 发布 | Maven Central（`io.github.tasure`）· GPG 签名 · GitHub Releases |
-| 自研 | 轻量 JSON 解析 · HTTP 客户端 · SSE 流式 · 加密 / JWT / DFA 等 |
+| 自研 | 轻量 JSON / HTTP · SSE 流式 · 加密 / JWT / DFA · MCP · Agent / RAG · GraalVM native-image · OTel 可观测 |
 
 ---
 
@@ -89,18 +90,18 @@
 | 总 Star | 1 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-08 09:17 (UTC+8) |
+| 数据同步于 | 2026-10-08 09:20 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:17 UTC+8)
 - 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:14 UTC+8)
 - 2026-10-08 · **sureai**：chore: release 2.0.0（开发者体验里程碑）
 - 2026-09-30 · **sureai**：docs(v2.0.0): README 5 分钟入门 + v2.0.0 四件套特性 + CHANGELOG [2.0.0]
 - 2026-09-30 · **suretool**：v1.6.0 发布收尾：bump 1.6.1-SNAPSHOT
 - 2026-09-30 · **suretool**：v1.6.0：JDK25 基线 + Spring Boot 4.1.1
-- 2026-09-25 · **TASure**：chore: auto-sync profile README (2026-09-26 03:26 UTC+8)
 
 ---
 

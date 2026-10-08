@@ -37,7 +37,7 @@
 - 一行调用：`OpenAiUtil.chat(model, prompt)` 完成对话
 - 统一能力：SSE 流式 · Function Calling · Embedding · 图像/视频生成 · TTS/STT · Rerank · 结构化输出 · 多模态 · PDF 理解 · Realtime · Batches · Grounding · 微调
 - 生态模块：MCP 客户端与服务端 · Agent(ReAct) · RAG · CLI 命令行 · Maven 脚手架 · GraalVM native-image · OTel 可观测 · Spring Boot Starter · Quarkus 扩展
-- 41 个模块 · 最新版本 **1.9.0**
+- 41 个模块 · 最新版本 **2.2.0**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/sureai)
 [![Release](https://img.shields.io/github/v/release/TASure/sureai)](https://github.com/TASure/sureai/releases)
@@ -51,7 +51,7 @@
 - 28 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · pdf · db · aop · log · event · math · process · script · socket · template · compress · extra · spring-boot-starter 等
 - 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1；DB 域内置零依赖最小连接池）
 - 测试全绿 · 覆盖率门禁 · CI 全绿 · CodeQL + Dependabot 自动依赖升级 · SpotBugs/Checkstyle 零告警
-- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.6.0**（JDK 25 基线 · Spring Boot 4.1.1）
+- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.8.0**（JDK 25 基线 · Spring Boot 4.1.1）
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/suretool)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.tasure/sure-all.svg)](https://central.sonatype.com/artifact/io.github.tasure/sure-all)
@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-08 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-08 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 0 | 2026-10-05 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 0 | 2026-10-08 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-08 |
 
 ---
 
@@ -90,18 +90,18 @@
 | 总 Star | 1 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-08 09:20 (UTC+8) |
+| 数据同步于 | 2026-10-09 03:24 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-10-08 · **sureai**：docs(v2.3.0): benchmark 归档 + 文档同步 + CHANGELOG
+- 2026-10-08 · **sureai**：perf(core): 核心路径性能优化——JSON 解析延迟 -32.8%（JMH 前后对比）
+- 2026-10-08 · **suretool**：feat(sure-core): 批14 Props + ExpressionUtil + japicmp 兼容门禁（目标 v1.9.0）
+- 2026-10-08 · **suretool**：release: v1.8.0 发布完成，bump 至 1.8.1-SNAPSHOT
+- 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:20 UTC+8)
 - 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:17 UTC+8)
-- 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:14 UTC+8)
-- 2026-10-08 · **sureai**：chore: release 2.0.0（开发者体验里程碑）
-- 2026-09-30 · **sureai**：docs(v2.0.0): README 5 分钟入门 + v2.0.0 四件套特性 + CHANGELOG [2.0.0]
-- 2026-09-30 · **suretool**：v1.6.0 发布收尾：bump 1.6.1-SNAPSHOT
-- 2026-09-30 · **suretool**：v1.6.0：JDK25 基线 + Spring Boot 4.1.1
 
 ---
 

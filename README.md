@@ -37,7 +37,7 @@
 - 一行调用：`OpenAiUtil.chat(model, prompt)` 完成对话
 - 统一能力：SSE 流式 · Function Calling · Embedding · 图像/视频生成 · TTS/STT · Rerank · 结构化输出 · 多模态 · PDF 理解 · Realtime · Batches · Grounding · 微调
 - 生态模块：MCP 客户端与服务端 · Agent(ReAct) · RAG · CLI 命令行 · Maven 脚手架 · GraalVM native-image · OTel 可观测 · Spring Boot Starter · Quarkus 扩展
-- 41 个模块 · 最新版本 **2.5.0**
+- 41 个模块 · 最新版本 **2.6.0**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/sureai)
 [![Release](https://img.shields.io/github/v/release/TASure/sureai)](https://github.com/TASure/sureai/releases)
@@ -51,7 +51,7 @@
 - 28 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · pdf · db · aop · log · event · math · process · script · socket · template · compress · extra · spring-boot-starter 等
 - 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1；DB 域内置零依赖最小连接池）
 - 测试全绿 · 覆盖率门禁 · CI 全绿 · CodeQL + Dependabot 自动依赖升级 · SpotBugs/Checkstyle 零告警
-- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.16.0**（JDK 25 基线 · Spring Boot 4.1.1）
+- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.17.0**（JDK 25 基线 · Spring Boot 4.1.1）
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/suretool)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.tasure/sure-all.svg)](https://central.sonatype.com/artifact/io.github.tasure/sure-all)
@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-10 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-10 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-08 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-13 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-12 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-10 |
 
 ---
 
@@ -90,18 +90,18 @@
 | 总 Star | 2 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-11 03:23 (UTC+8) |
+| 数据同步于 | 2026-10-14 03:24 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-10-10 · **sureai**：test(coverage): agent 干净单轮 97.85%→98.29%（miss 34→27，确定性补 Error/中断/maxIterations 分支）
-- 2026-10-10 · **sureai**：test(coverage): 修复干净单轮下时序竞争并补测防御分支，mcp/mcp-server 稳定 ≥98%
-- 2026-10-10 · **suretool**：feat(core): 批36 新建 SetUtil 20 方法（对标 Guava Sets 高频，v1.17.0）
-- 2026-10-10 · **suretool**：release: bump to 1.16.1-SNAPSHOT after v1.16.0
+- 2026-10-13 · **sureai**：docs(changelog): [2.7.0] 测试段按全量 verify 实测口径修正（基线 2720 → 2814，+94 全为网关模块）
+- 2026-10-13 · **sureai**：docs(gateway): v2.7.0 生产化章节（熔断/探活/超时/流式failover/观测审计/租户限流/GatewayUtil 快速上手）+ README 中英同步 + CHANGELOG [2.7.0]
+- 2026-10-11 · **suretool**：chore(health): 闭环回写——CI Windows 全绿 + Dependabot PR 已合并
+- 2026-10-11 · **suretool**：test(compress): 不可读文件跨平台真实注入——Windows icacls 拒绝读取，POSIX setReadable
+- 2026-10-10 · **TASure**：chore: auto-sync profile README (2026-10-11 03:23 UTC+8)
 - 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-09 03:24 UTC+8)
-- 2026-10-08 · **TASure**：chore: auto-sync profile README (2026-10-08 09:20 UTC+8)
 
 ---
 

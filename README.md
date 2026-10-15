@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-14 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-14 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-13 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-15 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-15 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-14 |
 
 ---
 
@@ -90,18 +90,18 @@
 | 总 Star | 2 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-15 03:26 (UTC+8) |
+| 数据同步于 | 2026-10-16 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-10-14 · **sureai**：feat(examples): EvalsDemo/RegressionDemo 离线评估示例并注册 ExamplesRunner
-- 2026-10-14 · **sureai**：docs(evals): 评估全链路中英文档 + README/COOKBOOK/CHANGELOG [2.8.0] Unreleased
-- 2026-10-14 · **suretool**：release: bump to 1.18.1-SNAPSHOT after v1.18.0
-- 2026-10-14 · **suretool**：release: v1.18.0（批37 类型系统 + 批38 Bean 拷贝/文件监听/查找算法）
+- 2026-10-15 · **suretool**：批43：URL 规范化深度 + 示例文档化收口（v1.19.0 候选）
+- 2026-10-15 · **suretool**：批42：网络工具 IP/URL 增强（v1.19.0 候选）
+- 2026-10-15 · **sureai**：perf(security): dependency-check 提速——带 key 间隔 6s→1s + actions/cache 缓存 NVD 数据（冷启动 60min→增量 1-3min）
+- 2026-10-15 · **sureai**：ci(security): dependency-check 注入 NVD_API_KEY（13.x 缺失 key 直接报错，修复 'length of 0'）
+- 2026-10-14 · **TASure**：chore: auto-sync profile README (2026-10-15 03:26 UTC+8)
 - 2026-10-13 · **TASure**：chore: auto-sync profile README (2026-10-14 03:24 UTC+8)
-- 2026-10-10 · **TASure**：chore: auto-sync profile README (2026-10-11 03:23 UTC+8)
 
 ---
 

@@ -63,8 +63,8 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-17 |
 | [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-17 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-17 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-17 |
 
 ---
@@ -90,16 +90,16 @@
 | 总 Star | 2 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-17 12:27 (UTC+8) |
+| 数据同步于 | 2026-10-18 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-10-17 · **suretool**：test(core): WatchDirBatch38Test 开启 sure.watch.diag 诊断门控（定位 Windows 子目录事件丢失）
+- 2026-10-17 · **suretool**：fix(core): backfill 补发尊重 eventTypes 过滤（修复 macOS 仅监听 MODIFY 误报 CREATE）；加 sure.watch.diag 诊断门控定位 Windows 子目录事件
 - 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-17 12:27 UTC+8)
-- 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-17 12:26 UTC+8)
-- 2026-10-17 · **suretool**：fix(core): WatchDir walkFileTree 容错+take 改 poll 超时兜底（Windows 递归/动态注册/溢出补发可靠性）；补快照容错测试 watch22
-- 2026-10-17 · **suretool**：test(core): WatchDir/FileTailer 防御分支覆盖补测（start 幂等/register IO/map null/interrupt/BOM/readCreation）——修复覆盖此前占位符提交
+- 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-17 12:27 UTC+8)
 - 2026-10-17 · **sureai**：chore(governance): 新增 FUNDING.yml 赞助配置（治理产物）
 - 2026-10-16 · **sureai**：chore(governance): 新增 PR 模板（治理产物）
 

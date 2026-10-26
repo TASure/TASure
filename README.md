@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-26 |
 | [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-26 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 2 | 2026-10-23 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-17 |
 
 ---
 
@@ -90,18 +90,18 @@
 | 总 Star | 3 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-26 13:10 (UTC+8) |
+| 数据同步于 | 2026-10-27 03:24 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-10-26 · **TASure**：chore: auto-sync profile README (2026-10-26 13:10 UTC+8)
 - 2026-10-23 · **sureai**：release: bump 3.0.1-SNAPSHOT（v3.0.0 已发布）
 - 2026-10-23 · **sureai**：test(cli): chat 多轮测试注入 EOF 行源（修复 ubuntu CI stdin 无 EOF 挂起）
 - 2026-10-22 · **suretool**：批50: CI Windows 诊断闭环 - WatchDir 快照无条件化/backfill 单条目容错 + FileTailer TOCTOU 修复 + 治理台账/日报
 - 2026-10-18 · **suretool**：批49: Spring Boot Starter 成熟化 - 四域自动装配（event/cron/cache）+ 配置组扩展 + 13 例测试
 - 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-18 03:23 UTC+8)
-- 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-17 12:27 UTC+8)
 
 ---
 

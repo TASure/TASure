@@ -37,7 +37,7 @@
 - 一行调用：`OpenAiUtil.chat(model, prompt)` 完成对话
 - 统一能力：SSE 流式 · Function Calling · Embedding · 图像/视频生成 · TTS/STT · Rerank · 结构化输出 · 多模态 · PDF 理解 · Realtime · Batches · Grounding · 微调
 - 生态模块：MCP 客户端与服务端 · Agent(ReAct) · RAG · CLI 命令行 · Maven 脚手架 · GraalVM native-image · OTel 可观测 · Spring Boot Starter · Quarkus 扩展
-- 41 个模块 · 最新版本 **2.7.0**
+- 41 个模块 · 最新版本 **3.0.0**
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/sureai)
 [![Release](https://img.shields.io/github/v/release/TASure/sureai)](https://github.com/TASure/sureai/releases)
@@ -51,7 +51,7 @@
 - 28 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · pdf · db · aop · log · event · math · process · script · socket · template · compress · extra · spring-boot-starter 等
 - 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1；DB 域内置零依赖最小连接池）
 - 测试全绿 · 覆盖率门禁 · CI 全绿 · CodeQL + Dependabot 自动依赖升级 · SpotBugs/Checkstyle 零告警
-- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.18.0**（JDK 25 基线 · Spring Boot 4.1.1）
+- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.19.0**（JDK 25 基线 · Spring Boot 4.1.1）
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/suretool)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.tasure/sure-all.svg)](https://central.sonatype.com/artifact/io.github.tasure/sure-all)
@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-17 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-26 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 2 | 2026-10-23 |
 | [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-17 |
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 1 | 2026-10-17 |
 
 ---
 
@@ -87,21 +87,21 @@
 | 指标 | 数值 |
 |------|------|
 | 公开仓库 | 3 |
-| 总 Star | 2 |
+| 总 Star | 3 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-18 03:23 (UTC+8) |
+| 数据同步于 | 2026-10-26 13:10 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-10-17 · **suretool**：test(core): WatchDirBatch38Test 开启 sure.watch.diag 诊断门控（定位 Windows 子目录事件丢失）
-- 2026-10-17 · **suretool**：fix(core): backfill 补发尊重 eventTypes 过滤（修复 macOS 仅监听 MODIFY 误报 CREATE）；加 sure.watch.diag 诊断门控定位 Windows 子目录事件
+- 2026-10-23 · **sureai**：release: bump 3.0.1-SNAPSHOT（v3.0.0 已发布）
+- 2026-10-23 · **sureai**：test(cli): chat 多轮测试注入 EOF 行源（修复 ubuntu CI stdin 无 EOF 挂起）
+- 2026-10-22 · **suretool**：批50: CI Windows 诊断闭环 - WatchDir 快照无条件化/backfill 单条目容错 + FileTailer TOCTOU 修复 + 治理台账/日报
+- 2026-10-18 · **suretool**：批49: Spring Boot Starter 成熟化 - 四域自动装配（event/cron/cache）+ 配置组扩展 + 13 例测试
+- 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-18 03:23 UTC+8)
 - 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-17 12:27 UTC+8)
-- 2026-10-17 · **TASure**：chore: auto-sync profile README (2026-10-17 12:27 UTC+8)
-- 2026-10-17 · **sureai**：chore(governance): 新增 FUNDING.yml 赞助配置（治理产物）
-- 2026-10-16 · **sureai**：chore(governance): 新增 PR 模板（治理产物）
 
 ---
 

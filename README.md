@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 2 | 2026-10-28 |
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 1 | 2026-10-28 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 0 | 2026-10-27 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-10-29 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-10-28 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 3 | 2026-10-28 |
 
 ---
 
@@ -87,21 +87,21 @@
 | 指标 | 数值 |
 |------|------|
 | 公开仓库 | 3 |
-| 总 Star | 3 |
+| 总 Star | 6 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-29 03:23 (UTC+8) |
+| 数据同步于 | 2026-10-30 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-10-29 · **suretool**：台账+日报：10-29 三平台全绿，3 条红色 CI 链闭环（验证日期 2026-10-29）；合并依赖 PR #21/#19
+- 2026-10-29 · **suretool**：chore(deps): bump google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml (#19)
+- 2026-10-28 · **TASure**：chore: auto-sync profile README (2026-10-29 03:23 UTC+8)
 - 2026-10-28 · **sureai**：chore(deps-dev): bump com.mycila:license-maven-plugin from 4.5 to 5.1.2
 - 2026-10-28 · **sureai**：chore(deps): bump actions/upload-pages-artifact from 3 to 5
-- 2026-10-28 · **suretool**：台账+日报：10-28 平台分支覆盖（4bacec6+0986989）
-- 2026-10-28 · **suretool**：批51 平台分支覆盖二：①Props 指定字符集加载重载测试（覆盖 107/108 签名行）；②ClassScanner 不存在目录返回空集测试（覆盖 listFiles null 分支，Windows setReadable 无效下不可达分支的替代路径）
 - 2026-10-27 · **TASure**：chore: auto-sync profile README (2026-10-28 03:25 UTC+8)
-- 2026-10-26 · **TASure**：chore: auto-sync profile README (2026-10-27 03:24 UTC+8)
 
 ---
 

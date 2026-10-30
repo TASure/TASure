@@ -63,9 +63,9 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-10-29 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-10-28 |
-| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 3 | 2026-10-28 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-10-30 |
+| [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 3 | 2026-10-30 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-10-29 |
 
 ---
 
@@ -90,18 +90,18 @@
 | 总 Star | 6 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-10-30 03:23 (UTC+8) |
+| 数据同步于 | 2026-10-31 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-10-29 · **suretool**：台账+日报：10-29 三平台全绿，3 条红色 CI 链闭环（验证日期 2026-10-29）；合并依赖 PR #21/#19
-- 2026-10-29 · **suretool**：chore(deps): bump google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml (#19)
+- 2026-10-30 · **suretool**：平台死行排除机制落地（预案未启用）：pom jacoco.excludeAnnotation 属性+配置位、ci.yml 说明注释；确认 978b2f7/584bdd7 两轮三平台 CI 全绿，macos socket 闭环，红色积压清零
+- 2026-10-30 · **suretool**：台账+日报：10-30 周五周汇总（本周闭环率 100%，红色积压清零）；macos socket 竞态修复登记
+- 2026-10-30 · **sureai**：chore(deps): bump actions/cache from 4 to 6
+- 2026-10-30 · **sureai**：chore(deps-dev): bump org.jacoco:jacoco-maven-plugin from 0.8.15 to 0.8.16
+- 2026-10-29 · **TASure**：chore: auto-sync profile README (2026-10-30 03:23 UTC+8)
 - 2026-10-28 · **TASure**：chore: auto-sync profile README (2026-10-29 03:23 UTC+8)
-- 2026-10-28 · **sureai**：chore(deps-dev): bump com.mycila:license-maven-plugin from 4.5 to 5.1.2
-- 2026-10-28 · **sureai**：chore(deps): bump actions/upload-pages-artifact from 3 to 5
-- 2026-10-27 · **TASure**：chore: auto-sync profile README (2026-10-28 03:25 UTC+8)
 
 ---
 

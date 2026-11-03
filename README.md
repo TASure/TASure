@@ -51,7 +51,7 @@
 - 28 个模块：core · json · xml · crypto · http · cache · cron · captcha · jwt · dfa · poi · pdf · db · aop · log · event · math · process · script · socket · template · compress · extra · spring-boot-starter 等
 - 核心域零第三方运行期依赖（Office 域基于 Apache POI 5.5.1；DB 域内置零依赖最小连接池）
 - 测试全绿 · 覆盖率门禁 · CI 全绿 · CodeQL + Dependabot 自动依赖升级 · SpotBugs/Checkstyle 零告警
-- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.19.0**（JDK 25 基线 · Spring Boot 4.1.1）
+- 已发布 Maven Central：`sure-all` 一键引入，最新版本 **1.19.1**（JDK 25 基线 · Spring Boot 4.1.1）
 
 [![源码](https://img.shields.io/badge/源码-GitHub-181717?logo=github&logoColor=white)](https://github.com/TASure/suretool)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.tasure/sure-all.svg)](https://central.sonatype.com/artifact/io.github.tasure/sure-all)
@@ -63,8 +63,8 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-11-02 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-10-31 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-11-03 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-11-02 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 3 | 2026-10-30 |
 
 ---
@@ -90,16 +90,16 @@
 | 总 Star | 6 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-11-03 03:23 (UTC+8) |
+| 数据同步于 | 2026-11-04 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-11-02 · **suretool**：Merge pull request #22 from TASure/dependabot/maven/maven-patch-03b7af8dda
-- 2026-11-02 · **suretool**：Merge pull request #23 from TASure/dependabot/maven/poi.version-6.0.0
+- 2026-11-03 · **suretool**：文档对齐：ROADMAP/modules 事实刷新至 2026-11-03 基线 (#28)
+- 2026-11-03 · **suretool**：台账闭环 HL-2026-11-03-01：v1.19.1 已发布至 Maven Central（repo1 latest/release=1.19.1）
+- 2026-11-02 · **TASure**：chore: auto-sync profile README (2026-11-03 03:23 UTC+8)
 - 2026-10-31 · **TASure**：chore: auto-sync profile README (2026-11-01 03:23 UTC+8)
-- 2026-10-30 · **TASure**：chore: auto-sync profile README (2026-10-31 03:23 UTC+8)
 - 2026-10-30 · **sureai**：chore(deps): bump actions/cache from 4 to 6
 - 2026-10-30 · **sureai**：chore(deps-dev): bump org.jacoco:jacoco-maven-plugin from 0.8.15 to 0.8.16
 

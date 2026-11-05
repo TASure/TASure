@@ -63,8 +63,8 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
-| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-11-04 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-11-03 |
+| [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-11-05 |
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-11-04 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 3 | 2026-10-30 |
 
 ---
@@ -90,16 +90,16 @@
 | 总 Star | 6 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-11-05 03:23 (UTC+8) |
+| 数据同步于 | 2026-11-06 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
-- 2026-11-04 · **suretool**：淇 FileTailer 杩炵画涓ゆ绌烘枃浠惰疆杞浜屾閫氱煡琚幓閲嶆姂鍒?(#31)
-- 2026-11-04 · **suretool**：构建：starter 依赖收敛至 core+captcha，并新增模块依赖契约门禁 (#30)
+- 2026-11-05 · **suretool**：docs: 同步模块与测试口径到 2026-11-05 实测值
+- 2026-11-05 · **suretool**：docs: 英文 Quickstart、Top 50 API 英文 Javadoc、Hutool 迁移指南与双语文档入口
+- 2026-11-04 · **TASure**：chore: auto-sync profile README (2026-11-05 03:23 UTC+8)
 - 2026-11-03 · **TASure**：chore: auto-sync profile README (2026-11-04 03:23 UTC+8)
-- 2026-11-02 · **TASure**：chore: auto-sync profile README (2026-11-03 03:23 UTC+8)
 - 2026-10-30 · **sureai**：chore(deps): bump actions/cache from 4 to 6
 - 2026-10-30 · **sureai**：chore(deps-dev): bump org.jacoco:jacoco-maven-plugin from 0.8.15 to 0.8.16
 

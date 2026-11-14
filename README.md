@@ -63,8 +63,8 @@
 
 | 仓库 | 说明 | 语言 | Stars | 最近更新 |
 |------|------|------|:----:|---------|
+| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-11-13 |
 | [sureai](https://github.com/TASure/sureai) | 零第三方依赖的 Java 大模型统一接入工具库（23 平台 · 41 模块） | Java | 3 | 2026-11-12 |
-| [TASure](https://github.com/TASure/TASure) | GitHub 主页（本仓库） | - | 1 | 2026-11-12 |
 | [suretool](https://github.com/TASure/suretool) | 小而全的 Java 工具类库（28 模块 · 已发布 Maven Central） | Java | 2 | 2026-11-12 |
 
 ---
@@ -90,16 +90,16 @@
 | 总 Star | 6 |
 | 总 Fork | 1 |
 | 关注者 | 0 |
-| 数据同步于 | 2026-11-14 03:23 (UTC+8) |
+| 数据同步于 | 2026-11-15 03:23 (UTC+8) |
 
 ---
 
 ## 📅 最近动态 Recent Activity
 
+- 2026-11-13 · **TASure**：chore: auto-sync profile README (2026-11-14 03:23 UTC+8)
 - 2026-11-12 · **TASure**：chore: auto-sync profile README (2026-11-13 03:23 UTC+8)
 - 2026-11-12 · **suretool**：chore(deps): bump the maven-minor group with 2 updates
 - 2026-11-12 · **suretool**：docs(backlog): 记录 v1.20.0 tag 已删除与版本号沿用
-- 2026-11-11 · **TASure**：chore: auto-sync profile README (2026-11-12 03:23 UTC+8)
 - 2026-10-30 · **sureai**：chore(deps): bump actions/cache from 4 to 6
 - 2026-10-30 · **sureai**：chore(deps-dev): bump org.jacoco:jacoco-maven-plugin from 0.8.15 to 0.8.16
 
